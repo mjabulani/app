@@ -17,6 +17,6 @@ public class ApiResourceV1 {
 
 
     public Mono<PaymentResponseV1> paymentInitiate(@RequestBody PaymentRequestV1) {
-        PaymentResponseV1 response = ;
+        PaymentResponseV1 response = "asd";
     }
 }
