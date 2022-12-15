@@ -15,9 +15,8 @@ import reactor.core.publisher.Mono;
 
 public class ApiResourceV1 {
 
+    @Override
+    public Mono<PaymentResponseV1> paymentInitiate(@RequestBody PaymentRequestV1 createPaymentRequestV2) {
 
-    public Mono<PaymentResponseV1> paymentInitiate(@RequestBody PaymentRequestV1) {
-        PaymentResponseV1 response = "";
-        // test comment which goes to branch develop
     }
 }
