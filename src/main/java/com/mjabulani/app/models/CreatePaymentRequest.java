@@ -17,4 +17,7 @@ public class CreatePaymentRequest {
     String creditorIban;
     String debtorIban;
 
+    public CreatePaymentRequest(PaymentRequestV1 createPaymentRequest) {
+
+    }
 }
