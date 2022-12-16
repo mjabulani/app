@@ -9,7 +9,6 @@ import lombok.ToString;
 
 import java.math.BigDecimal;
 
-@ApiModel
 @ToString
 @NoArgsConstructor
 @JsonNaming

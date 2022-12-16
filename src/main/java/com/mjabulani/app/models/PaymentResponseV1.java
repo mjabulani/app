@@ -1,7 +1,6 @@
 package com.mjabulani.app.models;
 
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +8,6 @@ import lombok.ToString;
 
 import java.math.BigDecimal;
 
-@ApiModel
 @ToString
 @NoArgsConstructor
 @JsonNaming
